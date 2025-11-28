@@ -1,0 +1,33 @@
+# Limitless Frontend
+
+## Project Overview
+This is a modern, high-performance frontend for the Limitless platform, built with React, TypeScript, and Vite. It features a futuristic, dark-themed design with glassmorphism effects and smooth animations.
+
+## Tech Stack
+- **Framework**: React 18
+- **Build Tool**: Vite
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: Shadcn UI (Radix UI based)
+- **Animations**: Framer Motion
+- **Icons**: Lucide React, React Icons
+- **State Management**: React Query (TanStack Query)
+- **Routing**: React Router DOM
+
+## Key Directories
+- `src/components`: Reusable UI components
+- `src/pages`: Application routes/pages
+- `src/hooks`: Custom React hooks
+- `src/lib`: Utility functions and configurations
+- `src/styles`: Global styles and theme definitions
+
+## Design System
+- **Theme**: Dark mode default
+- **Colors**: HSL variables defined in `src/index.css`
+- **Typography**: Sans-serif (Inter/Outfit recommended)
+- **Effects**: Glassmorphism, gradients, smooth transitions
+
+## Development
+- Run dev server: `npm run dev`
+- Build for production: `npm run build`
+- Lint code: `npm run lint`
